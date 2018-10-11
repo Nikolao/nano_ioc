@@ -1,0 +1,8 @@
+{
+	"services": {
+		"hello-world": {
+			"class": "simple_demo.HelloWorld",
+			"init_parameters": ["Bob"]
+		}
+	}
+}
