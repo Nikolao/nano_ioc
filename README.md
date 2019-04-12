@@ -47,14 +47,14 @@ class HelloWorld:
 
 if __name__ == '__main__':
 
-	configuration = {
+    configuration = {
         'services': {
             'hello-world': {
 				"class": "HelloWorld",
 				"init_parameters": ["Bob"]
             }
         }
-	}
+    }
     container = nano_ioc.Container(configuration)
 
     service = container.getService('hello-world')
@@ -114,9 +114,19 @@ ex: '$USER' will be replaced by the value of the USER environment variable.
 ## References and components used
 
 - https://media.readthedocs.org/pdf/python-guide/latest/python-guide.pdf
+- https://www.fullstackpython.com/
 
-- python 3
-- pypi
-- pytest
-- autopep8
 
+- https://www.conventionalcommits.org/en/v1.0.0-beta.2/
+- https://keepachangelog.com/en/1.0.0/
+- https://semver.org/
+- https://www.makeareadme.com/
+
+
+- python3 : https://www.python.org/
+- pypi : https://pypi.org/
+- pytest : https://docs.pytest.org/en/latest/
+- black : https://github.com/ambv/black
+- flake8 : https://pypi.org/project/flake8/
+- pre-commit : https://pre-commit.com/
+- gcloud
