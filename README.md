@@ -48,11 +48,9 @@ class HelloWorld:
 if __name__ == '__main__':
 
     configuration = {
-        'services': {
-            'hello-world': {
-				"class": "HelloWorld",
-				"init_parameters": ["Bob"]
-            }
+        'hello-world': {
+		"class": "HelloWorld",
+		"init_parameters": ["Bob"]
         }
     }
     container = nano_ioc.Container(configuration)
