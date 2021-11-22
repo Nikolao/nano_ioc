@@ -32,8 +32,6 @@ in less than 100 lines.
 
 
 ```
-import os
-import sys
 import nano_ioc
 
 
