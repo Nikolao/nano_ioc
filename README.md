@@ -19,7 +19,7 @@ but as many features as possible
 - post creation set of methods
 - all methods/functions accept
     - parameters of all kind
-    - instances of services as paramter 
+    - instances of services as parameters 
     - env variables as parameters
 - configurable syntax for
     - instances of services
@@ -61,6 +61,10 @@ if __name__ == '__main__':
     service.run()
 ```
 
+Result
+```
+HelloWorld Bob
+```
 
 ## configuration parameter
 
@@ -74,7 +78,7 @@ if __name__ == '__main__':
 
 ### description of a service
 
-- create-at-init: if True will be créated at Container creation, else will be created at first demand (False by default)
+- create-at-init: if True will be created at Container creation, else will be created at first demand (False by default)
 - singleton: if True a new object will be created each time (False by default)
 
 
